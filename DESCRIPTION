@@ -1,0 +1,15 @@
+Package: pmeans
+Version: 0.1
+Date: 2022-7-25
+Title: Predicted Model Means
+Description: 
+Author: Andrew Whiteman <andrew.whiteman@gilead.com>
+Maintainer: Andrew Whiteman <andrew.whiteman@gilead.com>
+License: GPL (>= 2)
+Depends: R (>= 3.0.2),
+	 lme4 (>= 1.1),
+	 methods
+LinkingTo:
+Imports: Matrix
+Suggests: devtools
+RoxygenNote: 7.1.2

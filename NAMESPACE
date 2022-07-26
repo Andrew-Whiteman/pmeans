@@ -1,0 +1,43 @@
+
+import(
+  lme4,
+  Matrix,
+  methods
+)
+
+
+
+importFrom("stats",
+           "as.formula", "confint", "drop.terms",
+           "is.empty.model", "model.matrix", "na.action",
+           "printCoefmat",
+           "reformulate", "residuals", "sd", "sigma",
+           "symnum", "terms", "vcov")
+
+
+export(
+  "c.contrast",
+  "contrast",
+  "ncol.contrast",
+  "nrow.contrast",
+  "rbind.contrast"
+)
+
+
+exportClasses(
+  "contrast"
+)
+
+
+exportMethods(
+  "[",
+  "contrast",
+  "delta"
+)
+
+
+S3method(c, contrast)
+S3method(names, contrast)
+S3method(ncol, contrast)
+S3method(nrow, contrast)
+S3method(rbind, contrast)
